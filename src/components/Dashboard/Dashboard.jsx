@@ -46,16 +46,19 @@ export default function Dashboard() {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
-
-      {/* ✅ Header Section */}
-<Box
-  sx={{
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "flex-start",
-    mb: 3
-  }}
+    <Box sx={{ backgroundColor: '#f5f5f5', minHeight: '100vh', py: 2 }}>
+      <Container maxWidth="lg">
+        {/* ✅ Header Section */}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "flex-start",
+            mb: 3,
+            backgroundColor: 'white',
+            p: 3,
+            borderRadius: 2
+          }}
 >
   {/* LEFT: TITLE */}
   <Typography variant="h6" fontWeight={600}>
@@ -91,7 +94,7 @@ export default function Dashboard() {
 
 
       {/* ✅ Policy Summary Card */}
-     <CardComponent>
+     <CardComponent sx={{ mb: 3 }}>
   <Typography variant="subtitle1" fontWeight={600} mb={2}>
     Policy Summary
   </Typography>
@@ -136,6 +139,7 @@ export default function Dashboard() {
 
   </Box>
 </CardComponent>
-    </Container>
+      </Container>
+    </Box>
   );
 }
