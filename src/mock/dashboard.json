@@ -1,0 +1,56 @@
+{
+  "topPlayers": [
+    {
+      "id": 1,
+      "name": "LeBron James",
+      "team": "Lakers",
+      "ppg": 25.7,
+      "rebounds": 8.2,
+      "assists": 6.3
+    },
+    {
+      "id": 2,
+      "name": "Giannis Antetokounmpo",
+      "team": "Bucks",
+      "ppg": 32.1,
+      "rebounds": 10.5,
+      "assists": 5.1
+    },
+    {
+      "id": 3,
+      "name": "Luka Doncic",
+      "team": "Mavericks",
+      "ppg": 32.4,
+      "rebounds": 9.2,
+      "assists": 8.0
+    }
+  ],
+  "recentGames": [
+    {
+      "id": 1,
+      "homeTeam": "Lakers",
+      "awayTeam": "Celtics",
+      "homeScore": 120,
+      "awayScore": 115,
+      "date": "2024-12-01"
+    },
+    {
+      "id": 2,
+      "homeTeam": "Bucks",
+      "awayTeam": "Mavericks",
+      "homeScore": 118,
+      "awayScore": 125,
+      "date": "2024-12-01"
+    }
+  ],
+  "standings": {
+    "east": [
+      { "rank": 1, "team": "Celtics", "wins": 25, "losses": 8 },
+      { "rank": 2, "team": "Bucks", "wins": 24, "losses": 9 }
+    ],
+    "west": [
+      { "rank": 1, "team": "Mavericks", "wins": 26, "losses": 7 },
+      { "rank": 2, "team": "Lakers", "wins": 24, "losses": 9 }
+    ]
+  }
+}
