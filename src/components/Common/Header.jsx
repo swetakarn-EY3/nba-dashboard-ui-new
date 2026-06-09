@@ -29,7 +29,7 @@ export default function Header({ title = 'NBA Dashboard', showProfile = true }) 
             },
           }}
         >
-          U
+          U anjan
         </Avatar>
       )}
     </Box>
