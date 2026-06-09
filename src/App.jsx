@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Header from './components/Common/Header';
-import Sidebar from './components/Common/Sidebar';
+// import Sidebar from './components/Common/Sidebar';
 import DashboardPage from './pages/DashboardPage';
 import InsightsPage from './pages/InsightsPage';
 import ComparisonPage from './pages/ComparisonPage';
@@ -33,7 +33,7 @@ function App() {
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
           <Header />
           <Box sx={{ display: 'flex', flex: 1 }}>
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Box component="main" sx={{ flex: 1 }}>
               <Routes>
                 <Route path="/" element={<DashboardPage />} />

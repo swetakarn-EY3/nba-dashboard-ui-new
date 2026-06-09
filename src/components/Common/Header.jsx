@@ -22,14 +22,14 @@ export default function Header({ title = 'NBA Dashboard', showProfile = true }) 
           sx={{
             width: 40,
             height: 40,
-            backgroundColor: '#ff6b6b',
+            backgroundColor: '#ffffff',
             cursor: 'pointer',
             '&:hover': {
               opacity: 0.9,
             },
           }}
         >
-          U anjan
+          U 
         </Avatar>
       )}
     </Box>

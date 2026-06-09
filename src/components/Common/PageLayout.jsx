@@ -7,7 +7,7 @@ export default function PageLayout({ children }) {
         display: 'flex',
         flexDirection: 'column',
         minHeight: '100vh',
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#843131',
       }}
     >
       <Container
